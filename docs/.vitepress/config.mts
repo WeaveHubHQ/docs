@@ -48,8 +48,7 @@ export default defineConfig({
           { text: 'Live Outage Dashboard', link: '/live-outage-dashboard' },
           { text: 'Vibe Badge', link: '/vibe-badge' },
           { text: 'EFT Terraforming', link: '/eft-terraforming' },
-          { text: 'Globalscape EFT Provider', link: '/globalscape-eft-provider' },
-          { text: "Scott's Guide", link: '/scotts-guide' }
+          { text: 'Globalscape EFT Provider', link: '/globalscape-eft-provider' }
         ]
       }
     ],

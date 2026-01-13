@@ -11,6 +11,5 @@ Local-first apps and integrations for Apple Health, Home Assistant, and the auto
 - Robinhood Crypto — Home Assistant sensors for Robinhood crypto balances and prices.
 - EFT Terraforming — Terraform workflows for Globalscape EFT to standardize provisioning.
 - Globalscape EFT Provider — Terraform provider for Globalscape EFT resources with auditable changes.
-- Scott's Guide — iOS reference app for bullet reloading data and procedures.
 
 Ready to dive in? Open any integration from the left sidebar to view its dedicated guide. HealthSync includes sub-sections for every supported destination so you can jump straight to the output you plan to use.

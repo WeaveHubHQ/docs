@@ -12,8 +12,8 @@ HealthSync streams Apple Health data to the destinations you choose with backgro
 - [Home Assistant](/healthsync/home-assistant)
 - [InfluxDB](/healthsync/influxdb)
 - [Libre](/healthsync/libre) (in development)
-- [n8n](/healthsync/n8n) (in development)
-- [Splunk](/healthsync/splunk) (in development)
+- [n8n](/healthsync/n8n)
+- [Splunk](/healthsync/splunk)
 
 ## Get started
 
