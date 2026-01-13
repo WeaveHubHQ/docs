@@ -6,10 +6,7 @@ export default defineConfig({
   description: "Guides and reference for WeaveHub apps, integrations, automations, and APIs.",
   themeConfig: {
     nav: [
-      { text: 'Overview', link: '/' },
-      { text: 'HealthSync', link: '/healthsync/' },
-      { text: 'Live Outage Dashboard', link: '/live-outage-dashboard' },
-      { text: 'HACS Preflight', link: '/hacs-preflight' }
+      { text: 'Overview', link: '/' }
     ],
 
     sidebar: [
