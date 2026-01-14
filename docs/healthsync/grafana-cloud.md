@@ -2,7 +2,13 @@
 
 Send OTLP/HTTP metrics from HealthSync to Grafana Cloud with full resource attributes and guardrails for validation.
 
-## Prep in Grafana Cloud
+## What you need
+
+- Grafana Cloud stack with OTLP HTTP enabled.
+- Instance ID (username) and an API key with metrics write scope.
+- OTLP metrics endpoint, e.g., `https://otlp-gateway-prod-us-east-2.grafana.net/otlp`.
+
+## Grafana Cloud Setup
 
 1. Go to **Connections → Add new connection** and search for **OpenTelemetry**.
 2. Instrumentation method: **OpenTelemetry SDK** → language **Other** → **Next**.
@@ -26,12 +32,6 @@ macOS:
   ```
 
 6. Click **Next**; the test connection in Grafana Cloud won’t pass because traces aren’t being sent. Use **Explore** later to verify metrics.
-
-## What you need
-
-- Grafana Cloud stack with OTLP HTTP enabled.
-- Instance ID (username) and an API key with metrics write scope.
-- OTLP metrics endpoint, e.g., `https://otlp-gateway-prod-us-east-2.grafana.net/otlp`.
 
 ## Configure in HealthSync
 

@@ -1,6 +1,6 @@
 # HealthSync
 
-HealthSync streams Apple Health data to the destinations you choose with background observers and no cloud dependency. Use the per-destination guides below for exact setup steps.
+HealthSync streams Apple Health data to the destinations you choose with background observers. Use the per-destination guides below for exact setup steps.
 
 ## Destinations
 
@@ -17,6 +17,6 @@ HealthSync streams Apple Health data to the destinations you choose with backgro
 
 ## Get started
 
-1. Install HealthSync from the App Store.
+1. Install HealthSync by WeaveHub from the App Store.
 2. Open Integrations in the app and pick a destination.
 3. Follow the guide for that destination and enable more than one if you need parallel outputs.
