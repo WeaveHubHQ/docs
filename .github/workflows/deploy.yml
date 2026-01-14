@@ -12,7 +12,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -20,6 +20,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -33,8 +36,10 @@ jobs:
       - name: Build VitePress site
         run: npm run docs:build
 
-      - name: Add .nojekyll to disable Jekyll on Pages
-        run: touch docs/.vitepress/dist/.nojekyll
+      - name: Include custom domain and disable Jekyll
+        run: |
+          touch docs/.vitepress/dist/.nojekyll
+          if [ -f CNAME ]; then cp CNAME docs/.vitepress/dist/CNAME; fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
