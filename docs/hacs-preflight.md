@@ -21,7 +21,9 @@ VS Code extension that validates Home Assistant custom integrations for HACS sub
 
 ## Get started
 
-[![Install from VS Marketplace](https://img.shields.io/badge/VS%20Code-Install-blue?logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=WeaveHub.hacs-integration-preflight)
+[![Install from Visual Studio Marketplace](https://static.weavehub.app/install-vs-marketplace.svg)](
+https://marketplace.visualstudio.com/items?itemName=WeaveHub.hacs-integration-preflight
+)
 
 1. Install “HACS Integration Preflight” from the VS Code Marketplace.
 2. Open the project that contains `custom_components/<domain>/`.
