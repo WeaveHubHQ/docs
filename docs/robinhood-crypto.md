@@ -10,18 +10,23 @@ Surfacing Robinhood Crypto Trading API data in Home Assistant with signed reques
 
 ## Setup
 
+### HACS (Recommended)
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=WeaveHubHQ&repository=healthsync-ha)
+
+### Manual Installation
+
 1. Copy `custom_components/robinhood_crypto` to `config/custom_components/` and restart HA.
-2. Add integration: **Settings → Devices & Services → Add Integration → Robinhood Crypto**.
-3. Provide:
+
+### Configuration
+
+1. Add integration: **Settings → Devices & Services → Add Integration → Robinhood Crypto**.
+2. Provide:
    - **API key**: from the Crypto Credentials portal.
    - **Private key (base64)**: base64-encoded Ed25519 private key seed generated per the docs.
    - **Symbols**: comma-separated pairs (e.g., `BTC-USD,ETH-USD`). Leave blank to fetch all.
-4. Adjust polling and symbols later in **Options**.
-5. To create/regenerate your API key and public/private key pair, visit the Crypto Account Settings page in a desktop browser, enter your base64 public key when creating credentials, and copy the API key into setup.
-
-### HACS (when published)
-
-HACS → Integrations → ⋮ → Custom repositories → add this repo URL (Integration) → install → restart → add integration.
+3. Adjust polling and symbols later in **Options**.
+4. To create/regenerate your API key and public/private key pair, visit the Crypto Account Settings page in a desktop browser, enter your base64 public key when creating credentials, and copy the API key into setup.
 
 ## Key generation (OpenSSL)
 

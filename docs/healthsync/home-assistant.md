@@ -2,10 +2,17 @@
 
 Creates webhook sensors in Home Assistant so you can drive automations with live Apple Health data.
 
-## Prereqs
+## Home Assistant Setup
 
-- Install the **HealthSync** custom component from `custom_components/healthsync_ha` or via HACS.
-- Create a webhook ID in the integration config flow.
+### HACS (Recommended)
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=WeaveHubHQ&repository=healthsync-ha)
+
+### Manual installation
+1. In HACS → Integrations → Custom repositories, add `https://github.com/WeaveHubHQ/healthsync-ha` as type **Integration**.
+2. Install the integration and choose the latest tagged release (e.g., `v0.1.3`).
+3. Restart Home Assistant.
+4. Add Integration → HealthSync HA. Copy the generated webhook URL into the iOS app.
 
 ## Configure in HealthSync
 
