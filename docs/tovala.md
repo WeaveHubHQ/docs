@@ -13,6 +13,9 @@ Home Assistant custom integration for Tovala Smart Ovens via their cloud API. Mo
 ## Installation
 
 ### HACS (recommended)
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=WeaveHubHQ&repository=ha-tovala)
+
 1. **HACS → Integrations → ⋮ → Custom repositories**.
 2. Add `https://github.com/WeaveHubHQ/ha-tovala` (category: Integration).
 3. Install, restart Home Assistant.
