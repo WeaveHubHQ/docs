@@ -26,7 +26,7 @@ https://marketplace.visualstudio.com/items?itemName=WeaveHub.hacs-integration-pr
 )
 
 1. Install “HACS Integration Preflight” from the VS Code Marketplace.
-2. Open the project that contains `custom_components/<domain>/`.
+2. Open your Home Assistant custom integration.
 3. Run `HACS: Run Integration Preflight Check` from the Command Palette or the HACS activity bar.
 4. Click any issue to autofix or jump to the file, then re-run to confirm fixes.
 5. Submit to HACS once checks pass.
