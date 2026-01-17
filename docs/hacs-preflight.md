@@ -2,6 +2,18 @@
 
 VS Code extension that validates Home Assistant custom integrations for HACS submission. It catches structure and metadata issues early and offers autofix commands.
 
+## Get started
+
+[![Install from Visual Studio Marketplace](https://static.weavehub.app/install-vs-marketplace.svg)](
+https://marketplace.visualstudio.com/items?itemName=WeaveHub.hacs-integration-preflight
+)
+
+1. Install “HACS Integration Preflight” from the VS Code Marketplace.
+2. Open your Home Assistant custom integration.
+3. Run `HACS: Run Integration Preflight Check` from the Command Palette or the HACS activity bar.
+4. Click any issue to autofix or jump to the file, then re-run to confirm fixes.
+5. Submit to HACS once checks pass.
+
 ## Validation coverage
 
 - Repository structure: git remote present and `custom_components/<domain>/` laid out correctly.
@@ -18,18 +30,6 @@ VS Code extension that validates Home Assistant custom integrations for HACS sub
 - `HACS: Autofix manifest.json ordering` — reorder manifest keys to HACS standard.
 - `HACS: Add/Repair CI Workflows` — preview and apply the official `hacs/action` workflow file.
 - `HACS: Check Home Assistant Brands status` — verify branding assets are submitted.
-
-## Get started
-
-[![Install from Visual Studio Marketplace](https://static.weavehub.app/install-vs-marketplace.svg)](
-https://marketplace.visualstudio.com/items?itemName=WeaveHub.hacs-integration-preflight
-)
-
-1. Install “HACS Integration Preflight” from the VS Code Marketplace.
-2. Open your Home Assistant custom integration.
-3. Run `HACS: Run Integration Preflight Check` from the Command Palette or the HACS activity bar.
-4. Click any issue to autofix or jump to the file, then re-run to confirm fixes.
-5. Submit to HACS once checks pass.
 
 ## Settings
 
