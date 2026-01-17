@@ -1,5 +1,7 @@
 # Live Outage Dashboard
 
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/WeaveHubHQ/Live-Outage-Dashboard&branch=main)
+
 Live Outage Dashboard is a status and incident board that sits on top of your existing monitors. It keeps ops teams aligned with live tiles, ownership, and publish-ready status views.
 
 ## Highlights
